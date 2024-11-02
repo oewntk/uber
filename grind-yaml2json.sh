@@ -25,6 +25,6 @@ echo "OUT:   ${OUTFILE}" 1>&2;
 
 opts="-pretty"
 
-jar=yaml2json-2.1.3-uber.jar
+jar=yaml2json-2.2.0-uber.jar
 java -ea -jar "${jar}" ${opts} "${IN}" "${IN2}" "${OUTFILE}"
 
