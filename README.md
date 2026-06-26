@@ -5,5 +5,5 @@
 # Open English Wordnet toolkit - Uber jars and scripts
 
 These are the Uber jars with launch scripts.
-Uber jars are jars that contain dependencies, they are runnable 'as is'.
+Uber jars are jars that contain dependencies: they are runnable 'as is'.
 
