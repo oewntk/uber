@@ -23,7 +23,7 @@ export BY_KEY_PLUS=(
 [YAM_PLUS_JSN_D1]=" -p -os d -o1    -if yaml -of json  ${IN}/yamlplus  -i2 ${IN2}/yaml2  ${OUT}/json_data1                  -oi ${OUT}/json_data1/oewn.info   "
 [YAM_PLUS_JSN_M]="  -p -os m        -if yaml -of json  ${IN}/yamlplus  -i2 ${IN2}/yaml2  ${OUT}/json_model/oewn-model.json  -oi ${OUT}/json_model/oewn.info   "
 
-[WNB31_YAM]="       -iv             -if wndb -of yaml  ${IN}/wndb31    -i2 ${IN2}/wndb2  ${OUT}/yaml31                      -oi ${OUT}/wndb31/wn31.info       "
+[WNB31_YAM]="       -iv             -if wndb -of yaml  ${IN}/wndb31    -i2 ${IN2}/wndb2  ${OUT}/yaml31                      -oi ${OUT}/yaml31/wn31.info       "
 [WNB31_SQL]="       -iv             -if wndb -of sql   ${IN}/wndb31    -i2 ${IN2}/wndb2  ${OUT}/sql31                       -oi ${OUT}/sql31/wn31.info        "
 )
 export KEYS_PLUS="${!BY_KEY_PLUS[@]}"
